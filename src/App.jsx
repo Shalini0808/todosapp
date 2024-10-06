@@ -44,7 +44,7 @@ function App() {
     <div>
        <div className="w-[400px] mx-auto mt-12">
            <h1 className='text-2xl font-bold '>Manage your tasks <span className='text-neutral-400'>@Shalini</span></h1>
-           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa dignissimos architecto cupiditate.</p>
+           <p className='text-md'>Take control of your tasks with our intuitive Todo App! Effortlessly create, update, and delete tasks to keep your life organized and productive. .</p>
            <input ref={taskInput} type="text" className='mt-2 border rounded-xl p-3 w-full focus:outline-none ' placeholder='Add task i.e. Learn Javascript' />
            <button onClick={handleSubmit} className='bg-black text-white flex justify-center items-center gap-4 py-2 mt-2 w-full rounded-xl'>Create Todos{formStatus?<Loader/>:""}</button>
        </div>
